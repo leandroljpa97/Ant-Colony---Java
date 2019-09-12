@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simulation SYSTEM "simulation.dtd">
+<simulation finalinst="100000" antcolsize="100" plevel="1000">
+    <graph nbnodes="10" nestnode="1">
+        <node nodeidx="1">
+            <weight targetnode="2">9</weight>
+            <weight targetnode="3">10</weight>
+            <weight targetnode="4">10</weight>
+            <weight targetnode="5">10</weight>
+			<weight targetnode="6">10</weight>
+            <weight targetnode="7">10</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+        <node nodeidx="2">
+            <weight targetnode="3">9</weight>
+            <weight targetnode="4">10</weight>
+            <weight targetnode="5">10</weight>
+			<weight targetnode="6">10</weight>
+            <weight targetnode="7">10</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+        <node nodeidx="3">
+            <weight targetnode="4">9</weight>
+            <weight targetnode="5">10</weight>
+			<weight targetnode="6">10</weight>
+            <weight targetnode="7">10</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+        <node nodeidx="4">
+			<weight targetnode="5">9</weight>
+			<weight targetnode="6">10</weight>
+            <weight targetnode="7">10</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+		 <node nodeidx="5">
+			<weight targetnode="6">9</weight>
+            <weight targetnode="7">10</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+		<node nodeidx="6">
+            <weight targetnode="7">9</weight>
+            <weight targetnode="8">10</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+		<node nodeidx="7">
+            <weight targetnode="8">9</weight>
+            <weight targetnode="9">10</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+		<node nodeidx="8">
+            <weight targetnode="9">9</weight>
+			<weight targetnode="10">10</weight>
+        </node>
+		<node nodeidx="9">
+			<weight targetnode="10">9</weight>
+        </node>
+
+    </graph>
+    <events>
+        <move alpha="0.00000001" beta="1.0" delta="0.2"/>
+        <evaporation eta="2.0" rho="10"/>
+    </events>
+</simulation>
